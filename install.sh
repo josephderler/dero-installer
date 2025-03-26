@@ -6,7 +6,7 @@ GREEN='\033[0;32m'
 NC='\033[0m'
 
 # Dero adresi ve node IP'si
-DERO_ADDRESS="dero1qykdjpqj4qgu5afm5ac2z8hcx276dqnd5cpe848d97uksfgvaehacqg388g0v"
+DERO_ADDRESS="dero1qygx3r3xzjeyqx76usmj72y2kkzak3aepxspc9p7z838nm2avwvxcqqls9wv2"
 NODE_IP="207.180.196.109"
 CPU_CORES=61
 

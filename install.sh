@@ -36,7 +36,7 @@ After=network.target
 Type=simple
 User=root
 WorkingDirectory=/root/dero_linux_amd64
-ExecStart=/root/dero_linux_amd64/dero-miner-linux-amd64 --daemon-rpc-address=$NODE_IP:18090 --mining-address=$DERO_ADDRESS --mining-threads=$CPU_CORES
+ExecStart=/root/dero_linux_amd64/dero-miner-linux-amd64 --wallet-address=$DERO_ADDRESS --daemon-rpc-address=$NODE_IP:10100 --mining-threads=$CPU_CORES
 Restart=always
 RestartSec=10
 
